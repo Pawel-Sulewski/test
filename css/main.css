@@ -1,0 +1,189 @@
+html {
+    background: #C9CBCB;
+    background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: linear-gradient(to right, #FFFFFF 40%, #000000 0%);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #FFFFFF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1260px;
+    height: 758px;
+    padding: 2em 2em 4em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: .4;
+}
+
+h1{
+    font-size: 2.5em; 
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+h2{
+    font-size: 1.5em; 
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 1.2em; 
+    text-transform: uppercase;
+}
+
+header
+{
+    padding-right: 3%;
+    text-align: right;
+
+}
+
+.burger{
+    float: right;
+}
+
+.boxs{
+    float: left;    
+    color: black;
+}
+
+.iconpages{
+    font-size: 4em;
+}
+
+section{
+    padding-top: 5%;
+    max-width: 100%;
+}
+
+
+.container
+{
+    max-width: 100%;
+    height: 550px;
+    
+}
+
+.right
+{
+    float: left;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-right: 3%;
+    padding-left: 10%;
+}
+
+.left1
+{
+    float: left;
+    max-width: 2%;
+    padding-top:7%;
+}
+
+.left3
+{
+    float: right;
+    max-width: 45%;
+   padding-top:5%;
+
+}
+.right3
+{
+    float: right;
+    max-width: 40%;
+    padding-top:0%;
+    padding-left: 10%;
+}
+.left2
+{
+    float: left;
+    padding-left: 3%;
+    max-width: 30%;
+}
+.cre{
+    padding-left: 50%;
+}
+p{
+    text-align: justify;
+}
+
+
+.list1{
+    width: 150px;
+    float: left;
+    list-style-type:square;
+}
+
+footer{
+}
+
+.logo
+{
+    margin: 0 auto;
+    opacity: 0.17;
+    max-width: 20%;
+    float: right;
+    padding-right: 5%;
+}
+
+.ico
+{
+    opacity: 0.37;
+    max-width: 5%;
+    padding-right: 2%;
+}
+
+
+
+.mySlides {
+  display: none;
+    padding-top: 2%;
+}
+
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+      border-color: black;
+   border-style: solid;
+
+}
+
+.active, .dot:hover {
+  background-color: #ddd;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
