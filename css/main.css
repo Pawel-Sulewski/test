@@ -86,6 +86,12 @@ section{
     width: 100%;
     left: 25%;
 }
+.top-right-2{
+    top: 20%;  
+    position: absolute;
+    width: 100%;
+    left: 25%;
+}
 .right
 {
     float: left;
@@ -96,11 +102,22 @@ section{
     position: relative;
 
 }
+.right-2
+{
+    float: left;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-right: 3%;
+    padding-left: 9%;
+    position: relative;
+    padding-top: 7%;
+
+}
 .specialimg{
     max-width: 100%;
     padding-left: 50%;
     margin-top: -40%;
-    opacity: 0.12;
+    opacity: 0.28;
 }
 
 .left1
@@ -259,6 +276,31 @@ footer{
     -webkit-column-width: 100%; /* Chrome, Safari, Opera */
     -moz-column-width: 100%; /* Firefox */
     column-width: 100%;
+}
+.skillso{
+   -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-width: 100%; /* Chrome, Safari, Opera */
+    -moz-column-width: 100%; /* Firefox */
+    column-width: 100%; 
+}
+.skillsimgo{
+        max-width: 30%;
+
+}
+.skills3{
+    
+     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-width: 100%; /* Chrome, Safari, Opera */
+    -moz-column-width: 100%; /* Firefox */
+    column-width: 100%;
+}
+.skillsimg3{
+        max-width: 40%;
+
 }
 .skillsimg{
     margin: 0 auto;
